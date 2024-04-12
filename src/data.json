@@ -6,5 +6,30 @@
         "textTwo":"Somos una empresa peruana creada con la finalidad de brindar servicio de lavado integral de autos utilizando una tecnología de autolavado ecológico, innovando de esta manera el mercado peruano con un servicio rápido, económico y eco amigable.",
         "titleThree":"Separa tu cita.",
         "textThree":"Olvida las enormes colas de la hora punta. Reserva tu cita y averigua en qué momento podemos lavar tu auto exclusivamente y rápidamente."
+    },
+    "servicios":{
+        "titleOne": "Lavado a vehiculos",
+        "titleTwo": "Servicios Detailing"
+    },
+
+    "cita":{
+        "titleOne": "Separar Cita",
+        "titleTwo": "Cita Reservada"
+    },
+    "nosotros":{
+        "titleOne":"Mision",
+        "textOne":"Mision de ecowash Aca",
+        "titleTwo": "Vision",
+        "textTwo":"Vision de Ecowash Aca",
+        "titleThree":"Trabaja con nosotros",
+        "textThree":"Floro para trabajadores"
+    },
+    "contactanos":{
+        "ecowashLogo": "string logo",
+        "email": "ecowash email",
+        "phones": 123456789,
+        "facebook": "fb string",
+        "instagram": "insta",
+        "whatsapp": "link to whatsapp"
     }
 }
