@@ -5,7 +5,7 @@ import { landing } from '../../data.json';
 
 export default function Landing(){
     return(
-        <div className="bg-slate-600 w-[100%]">
+        <div className="bg-slate-600 w-full">
             <header className = "">
                 <NavBar />
             </header>
