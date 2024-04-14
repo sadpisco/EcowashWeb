@@ -2,7 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-#root {
+.App{
+  background-color: rgb(29, 29, 29);
+  min-width: 100vw;
+  display: flex;
+  flex-direction: center;
+  justify-content: center;
+  align-items: center;
+}
+
+*{
+  align-self: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* #root {
   width: 100%;
   margin: 0 auto;
   padding: 2rem;
@@ -43,4 +60,4 @@
 
 .read-the-docs {
   color: #888;
-}
+} */
