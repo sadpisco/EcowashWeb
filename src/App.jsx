@@ -2,7 +2,6 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import { landing } from './data.json'
 import {Routes, Route} from 'react-router-dom';
 import Landing from './views/Landing/Landing';
 import Booking from './views/Booking/Booking';
@@ -11,8 +10,6 @@ import Services from './views/Services/Services';
 import Contact from './views/Contact/Contact';
 
 function App() {
-  console.log(landing);
-
   return (
     <div className = 'App'>
       <Routes>
@@ -25,5 +22,4 @@ function App() {
     </div>
   )
 }
-
 export default App
