@@ -2,10 +2,11 @@ import React from 'react';
 import { Link } from 'react-router-dom'
 
 export default function NavBar(){
+    const logo = '';
     return(
-        <div className = "flex flex-col">
+        <div className = "flex flex-row items-center justify-around">
             <section>
-                Ecowash Logo
+            <img src = {logo} alt = "Logo Ecowash"/>
             </section>
             <section className = "">
                 <Link to = "/" className = "text-black">Home</Link>
