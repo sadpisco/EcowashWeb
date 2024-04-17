@@ -3,16 +3,16 @@ import React from 'react';
 export default function Footer(){
     const logo = '';
     return(
-        <div className = "absolute left-0 bottom-0 min-h-40 min-w-full bg-green-800 flex flex-row justify-center items-center">
+        <div className = "sticky left-0 bottom-0 min-h-40 min-w-full bg-green-800 flex flex-row justify-center items-center">
             <section>
             <img src = {logo} alt = "Logo Ecowash"/>
             </section>
-            <section>
+            <section className = "">
                 <div className = "flex flex-row">
-                   <h3>Numero</h3> <h3>954163059</h3>
+                   <h3 className = "font-montserrat font-normal">Numero</h3> <h3>954163059</h3>
                 </div>
                 <div className = "flex flex-row">
-                   <h3>Email</h3> <h3>leo99153@gmail.com</h3>
+                   <h3 className = "font-montserrat">Email</h3> <h3>leo99153@gmail.com</h3>
                 </div>
                 <div>
                    <h3>Whatsapp</h3>

@@ -6,6 +6,10 @@ export default {
     ],
     theme: {
       extend: {
+        fontFamily: {
+          nunito: ['Nunito+Sans'],
+          montserrat: ['Montserrat']
+        }
       },
     },
     plugins: [],
