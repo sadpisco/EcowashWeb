@@ -6,14 +6,14 @@ import BusinessIcon from '@mui/icons-material/Business';
 import CallIcon from '@mui/icons-material/Call';
 import EditCalendarIcon from '@mui/icons-material/EditCalendar';
 import styles from './NavBar.module.css'
+import logoExample from '../../assets/logoexample.png';
 
 
 export default function NavBar() {
-    const logo = '';
     return (
         <body className="bg-slate-900 flex flex-row items-center justify-around h-20 w-full">
-            <section className="bg-red-400 flex flex-row items-center justify-center h-14">
-                <img src={logo} alt="Logo Ecowash" />
+            <section className="flex flex-row items-center justify-center h-14">
+                <img src={logoExample} alt="Logo Ecowash" className = "h-64" />
             </section>
             <section className="flex flex-row">
                 <Link to="/" className="text-white p-2">
