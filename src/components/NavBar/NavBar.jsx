@@ -11,7 +11,7 @@ import styles from './NavBar.module.css'
 export default function NavBar() {
     const logo = '';
     return (
-        <body className="bg-slate-900 flex flex-row items-center justify-around h-20">
+        <body className="bg-slate-900 flex flex-row items-center justify-around h-20 w-full">
             <section className="bg-red-400 flex flex-row items-center justify-center h-14">
                 <img src={logo} alt="Logo Ecowash" />
             </section>
@@ -43,7 +43,7 @@ export default function NavBar() {
                 <Link to="/booking" className="text-white p-2">
                     <button className = "flex flex-row items-center justify-center">
                         <EditCalendarIcon className = {styles.icon}/>
-                        <h2 className = " font-montserrat p-1">Reservar Citas</h2>
+                        <h2 className = " font-montserrat p-1">Reservar Cita</h2>
                     </button>
                 </Link>
             </section>

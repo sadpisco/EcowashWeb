@@ -5,16 +5,16 @@ import { landing } from '../../data.json';
 
 export default function Landing(){
     return(
-        <div className="bg-slate-200 w-full h-fit">
-            <header className = "">
+        <main className="w-screen min-h-screen flex flex-col items-center justify-between">
+            <header className = "w-full">
                 <NavBar />
             </header>
-            <body className = "bg-lime-600 min-h-">
-            Hello from Landing
+            <body className = "bg-slate-800  h-auto w-full flex flex-col items-start justify-center">
+                <h1>Landing</h1>
             </body>
-            <footer>
+            <footer className = "w-full">
                 <Footer />
             </footer>
-        </div>
+        </main>
     )
 }
