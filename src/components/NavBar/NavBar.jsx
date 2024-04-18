@@ -13,7 +13,7 @@ export default function NavBar() {
     return (
         <body className="bg-slate-900 flex flex-row items-center justify-around h-20 w-full">
             <section className="flex flex-row items-center justify-center h-14">
-                <img src={logoExample} alt="Logo Ecowash" className = "h-64" />
+                <img src={logoExample} alt="Logo Ecowash" className = "h-24" />
             </section>
             <section className="flex flex-row">
                 <Link to="/" className="text-white p-2">
