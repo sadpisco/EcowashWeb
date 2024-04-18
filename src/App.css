@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .App{
-  background-color: rgb(29, 29, 29);
+  background-color: rgb(167, 167, 167);
   min-width: 100vw;
   display: flex;
   flex-direction: center;

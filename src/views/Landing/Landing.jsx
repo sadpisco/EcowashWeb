@@ -9,7 +9,7 @@ export default function Landing(){
             <header className = "w-full">
                 <NavBar />
             </header>
-            <body className = "bg-slate-800  h-auto w-full flex flex-col items-start justify-center">
+            <body className = "bg-slate-600  h-auto w-full flex flex-col items-start justify-center">
                 <h1>Landing</h1>
             </body>
             <footer className = "w-full">
