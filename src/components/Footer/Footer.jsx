@@ -6,8 +6,10 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import CallIcon from '@mui/icons-material/Call';
 import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
+// import Maps from '../../Map.jsx';
 
 export default function Footer(){
+
     return(
         <div className = "fixed left-0 bottom-0 h-auto min-w-full  bg-slate-900 pt-6">
         <body className="flex flex-row justify-around items-center  h-auto">
@@ -44,10 +46,10 @@ export default function Footer(){
                 </div>
 
             </section>
-            <section className=" mt-2 h-44 w-80">
+            {/* <section className=" mt-2 h-44 w-80 bg-slate-600">
                 <h2 className = "font-montserrat text-xl font-bold">📍Avenida Salvador Lara 985</h2>
-
-            </section>
+                <Maps/>
+            </section> */}
         </body>
         <h3 className = "text-white text-center text-md font-montserrat pb-4">© Todos los derechos reserados. | Desarrollado por Leonardo Risco Web Developer</h3>
         </div>
