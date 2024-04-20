@@ -2,3 +2,9 @@
     width: 20px;
     height: 20px;
 }
+
+.mapcontainer{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+}

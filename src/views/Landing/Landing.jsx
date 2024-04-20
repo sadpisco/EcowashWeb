@@ -59,6 +59,9 @@ export default function Landing(){
                     <img src = {imageDivThree} className='w-[300px] rounded shadow-2xl'/>
                 </section>
             </body>
+            <section>
+                
+            </section>
             <footer className = "w-full">
                 <Footer />
             </footer>
