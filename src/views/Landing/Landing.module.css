@@ -10,7 +10,16 @@
     background-image: url("../../assets/LandingImage4.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed; 
+    background-attachment: scroll; 
+    background-size:cover;
+    height: 500px;
+}
+
+.divThree{
+    background-image: url("../../assets/LandingImage2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll; 
     background-size:cover;
     height: 500px;
 }

@@ -1,6 +1,7 @@
 import React from 'react';
 import NavBar from '../../components/NavBar/NavBar';
 import Footer from '../../components/Footer/Footer';
+import { Link } from 'react-router-dom';
 import { landing } from '../../data.json';
 import styles from './Landing.module.css';
 import logoOne from '../../assets/3m.png';
@@ -8,6 +9,9 @@ import logoTwo from '../../assets/sonax.png';
 import logoThree from '../../assets/karcher.png';
 import logoFour from '../../assets/wurth.png';
 import logoFive from '../../assets/motul.png'
+import EditCalendarIcon from '@mui/icons-material/EditCalendar';
+import imageDivTwo from '../../assets/LandingImage3.jpg';
+import imageDivThree from '../../assets/LandingImage5.jpg';
 
 export default function Landing(){
     return(
@@ -32,14 +36,27 @@ export default function Landing(){
                         <img src = {logoFive} className = {styles.img} />
                     </div>
                 </section>
-                <section className = {`${styles.divTwo} w-full flex flex-row items-center justify-center`}>
-                    <article className = {`${styles.compDivTwo} flex flex-row items-center justify-center rounded p-10`}>
-                        <h1 className = "font-montserrat">
-                            Bienvenido a Ecowash
-                        </h1>
-
+                <section className={`${styles.divTwo} w-full flex flex-row items-center justify-center`}>
+                    <article className={`${styles.compDivTwo} flex flex-row items-center justify-center rounded p-10`}>
+                        <img src={imageDivTwo} className='w-[300px] rounded shadow-2xl' />
+                        <div className="w-[600px] h-full flex flex-col items-center justify-center">
+                            <h1 className="font-montserrat text-center text-3xl font-medium">
+                                {landing.titleTwo}
+                            </h1>
+                            <p className="font-montserrat text-center text-lg p-8">
+                                {landing.textTwo}
+                            </p>
+                            <Link to='./booking' className="text-white p-2">
+                                <button className="flex flex-row items-center w-[190px] h-[60px] justify-around bg-slate-800 rounded-md p-4 shadow-2xl">
+                                    <EditCalendarIcon />
+                                    <h2 className=" font-montserrat text-lg">Separar cita</h2>
+                                </button>
+                            </Link>
+                        </div>
                     </article>
-
+                </section>
+                <section className={`${styles.divThree} w-full h-auto flex flex-row items-center justify-center`}>
+                    <img src = {imageDivThree} className='w-[300px] rounded shadow-2xl'/>
                 </section>
             </body>
             <footer className = "w-full">
