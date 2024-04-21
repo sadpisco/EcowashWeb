@@ -1,24 +1,24 @@
 import {APIProvider, Map, Marker} from '@vis.gl/react-google-maps';
 import credentials from '../../../credentials';
 
-function MapLanding() {
+function MapFooter() {
     const center = {
         lat: -8.09907,
         lng: -79.02473
       };
 
-      const containerStyle = {
-        width: '90%',
-        height: '280px',
-        borderRadius: '10px',
-        boxShadow: '0px 0px 20px 0px black',
-        paddingTop: '5px'
-      };
+const containerStyle = {
+  width: '100%',
+  height: '90%',
+  borderRadius: '10px',
+  boxShadow: '0px 0px 2px 2px black',
+  paddingTop: '5px'
+};
 
   return (
     <div style={containerStyle}>
     <APIProvider apiKey={credentials.API_MAPS_KEY}>
-      <Map defaultCenter={center} defaultZoom={16}>
+      <Map defaultCenter={center} defaultZoom={17}>
         <Marker position={center} label={'Ecowash Detailing'}/>
       </Map>
     </APIProvider>
@@ -26,4 +26,4 @@ function MapLanding() {
   );
 }
 
-export default MapLanding;
+export default MapFooter;

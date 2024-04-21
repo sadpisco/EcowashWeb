@@ -7,23 +7,10 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import { useMemo } from 'react';
 import CallIcon from '@mui/icons-material/Call';
 import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
-import { GoogleMap, useLoadScript, Marker } from '@react-google-maps/api';
-import Gmaps from '../Map/Map';
+import MapFooter from '../Map/MapFooter';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 
 export default function Footer(){
-    // const { isLoaded } = useLoadScript({ googleMapsApiKey: "AIzaSyCYBB_xL5jGv3mOvcxp2ddyzkOpmpB3NtU"});
-
-    // const Map = function(){
-    //     const center = useMemo(() => ({lat: 44, lng: -80}), []);
-    //     return(
-    //         <div className={styles.mapeo}>
-    //         <GoogleMap zoom = {10} center = {center} mapContainerClassName='mapcontainer'>
-    //             <Marker position = {center} />
-    //         </GoogleMap>
-    //         </div>
-    //     )
-    // };
 
     return(
         <div className = "sticky left-0 bottom-0 h-auto min-w-full  bg-slate-900 pt-6">
@@ -63,10 +50,10 @@ export default function Footer(){
             </section>
             <section className=" mt-2 h-48 w-80">
                 <h2 className = "font-montserrat text-xl font-bold pb-2"><LocationOnIcon />Av Salvador Lara 985</h2>
-                <Gmaps />
+                <MapFooter />
             </section>
         </body>
-        <h3 className = "text-white text-center text-md font-montserrat pb-4">© Todos los derechos reserados. | Desarrollado por Leonardo Risco Web Developer</h3>
+        <h3 className = "text-white text-center text-md font-montserrat pb-4">© Todos los derechos reserados. | Desarrollado por <a href='https://www.linkedin.com/in/leonardo-risco/' className = "text-blue text-center text-md font-montserrat">Leonardo Risco Web Developer</a></h3>
         </div>
     )
 }
