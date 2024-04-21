@@ -31,5 +31,42 @@
         "facebook": "fb string",
         "instagram": "insta",
         "whatsapp": "link to whatsapp"
+    },
+    "lavados": [{
+        "nombre":"Lavado exterior",
+        "descripcion": "Lavado simple de carrocería externa del vehiculo y lavado de llantas.",
+        "img": "https://res.cloudinary.com/ductjwavg/image/upload/v1713688949/pexels-sleepi-alleyne-1740919_-_copia_q0igp6.jpg",
+        "auto": 8,
+        "suv": 10,
+        "forbyfor": 12,
+        "van": 15
+    },
+    {
+        "nombre":"Lavado básico",
+        "descripcion": "Lavado simple de carrocería externa del vehículo, lavado simple de interiores del vehículo, aspirado de interiores y maletera, siliconeado de tablero y llantas, interiores perfumados.",
+        "img": "https://res.cloudinary.com/ductjwavg/image/upload/v1713688452/LandingImage3_-_copia_uzprjh.jpg",
+        "auto": 15,
+        "suv": 20,
+        "forbyfor": 25,
+        "van": 30
+    },
+    {
+        "nombre":"Lavado especial",
+        "descripcion": "Lavado simple de carrocería externa del vehículo, lavado simple de interiores del vehículo, aspirado de interiores y maletera, siliconeado de tablero y llantas, interiores perfumados, encerado o lavado general de motor.",
+        "img": "https://res.cloudinary.com/ductjwavg/image/upload/v1713688415/pexels-tima-miroshnichenko-6873005_pjakyf.jpg",
+        "auto": 25,
+        "suv": 30,
+        "forbyfor": 35,
+        "van": 40
+    },
+    {
+        "nombre":"Lavado salón",
+        "descripcion": "Lavado profundo de carrocería externa del vehículo, lavado profundo de interiores del vehículo, aspirado de techo, suelo, interiores y maletera, siliconeado de tablero, puertas, maletera y llantas, interiores perfumados, encerado y lavado de motor.",
+        "img": "https://res.cloudinary.com/ductjwavg/image/upload/v1713688894/3_-_copia_yeuwi4.jpg",
+        "auto": 200,
+        "suv": 250,
+        "forbyfor": 280,
+        "van": 350
     }
+    ]
 }
