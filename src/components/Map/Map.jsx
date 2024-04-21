@@ -30,11 +30,11 @@ function GMaps() {
   //   map.fitBounds(bounds);
 
   //   setMap(map)
-  // }, [])
+  // }, []);
 
   // const onUnmount = React.useCallback(function callback(map) {
   //   setMap(null)
-  // }, [])
+  // }, [Marker]);
 
   return isLoaded ? (
       <GoogleMap
@@ -44,9 +44,9 @@ function GMaps() {
         // onLoad={onLoad}
         // onUnmount={onUnmount}
       >
-        <div>
-        <Marker position = {{  lat: -8.09907,  lng: -79.02473}} cursor='pointer' />
-        </div>
+        
+        <Marker position = {{  lat: -8.09907,  lng: -79.02473}} cursor='pointer'/>
+        
         
       </GoogleMap>
   ) : <p>Cargando...</p>
