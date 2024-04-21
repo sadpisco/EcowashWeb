@@ -61,12 +61,14 @@ export default function Landing(){
                 <section className={`${styles.divThree} w-full h-auto flex flex-row items-center justify-center`}>
                     <div className={`${styles.compDivTwo} flex h-[500px] w-[50%] flex-row items-center justify-around rounded p-10`}>
                     <article className="w-[600px] h-full flex flex-col items-center justify-around ">
-                        <h1 className="font-montserrat text-center text-3xl font-medium">Ubicanos</h1>
+                        <h1 className="font-montserrat text-center text-3xl font-medium">Ubícanos</h1>
                         <MapLanding />
-                        <button className="flex flex-row items-center w-[190px] h-[60px] justify-around bg-slate-800 rounded-md p-4 shadow-2xl">
+                        
+                            <a href='https://maps.app.goo.gl/p26UAheG15eJNkRL7' className="flex flex-row items-center w-[190px] h-[60px] justify-around bg-slate-800 text-white rounded-md p-4 shadow-2xl">
                                     <LocationOnIcon />
                                     <h2 className=" font-montserrat text-lg">Google Maps</h2>
-                                </button>
+                                    </a>
+                                
                     </article>
                     <img src = {imageDivThree} className='w-[300px] rounded shadow-2xl'/>
                     </div>
