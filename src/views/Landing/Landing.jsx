@@ -12,6 +12,9 @@ import logoFive from '../../assets/motul.png'
 import EditCalendarIcon from '@mui/icons-material/EditCalendar';
 import imageDivTwo from '../../assets/LandingImage3.jpg';
 import imageDivThree from '../../assets/LandingImage5.jpg';
+import MapLanding from '../../components/Map/MapLanding';
+import LocationOnIcon from '@mui/icons-material/LocationOn';
+
 
 export default function Landing(){
     return(
@@ -37,7 +40,7 @@ export default function Landing(){
                     </div>
                 </section>
                 <section className={`${styles.divTwo} w-full flex flex-row items-center justify-center`}>
-                    <article className={`${styles.compDivTwo} flex flex-row items-center justify-center rounded p-10`}>
+                    <article className={`${styles.compDivTwo}  w-[50%] flex flex-row items-center justify-center rounded p-10`}>
                         <img src={imageDivTwo} className='w-[300px] rounded shadow-2xl' />
                         <div className="w-[600px] h-full flex flex-col items-center justify-center">
                             <h1 className="font-montserrat text-center text-3xl font-medium">
@@ -56,12 +59,19 @@ export default function Landing(){
                     </article>
                 </section>
                 <section className={`${styles.divThree} w-full h-auto flex flex-row items-center justify-center`}>
+                    <div className={`${styles.compDivTwo} flex h-[500px] w-[50%] flex-row items-center justify-around rounded p-10`}>
+                    <article className="w-[600px] h-full flex flex-col items-center justify-around ">
+                        <h1 className="font-montserrat text-center text-3xl font-medium">Ubicanos</h1>
+                        <MapLanding />
+                        <button className="flex flex-row items-center w-[190px] h-[60px] justify-around bg-slate-800 rounded-md p-4 shadow-2xl">
+                                    <LocationOnIcon />
+                                    <h2 className=" font-montserrat text-lg">Google Maps</h2>
+                                </button>
+                    </article>
                     <img src = {imageDivThree} className='w-[300px] rounded shadow-2xl'/>
+                    </div>
                 </section>
             </body>
-            <section>
-                
-            </section>
             <footer className = "w-full">
                 <Footer />
             </footer>

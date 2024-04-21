@@ -9,6 +9,7 @@ import CallIcon from '@mui/icons-material/Call';
 import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
 import { GoogleMap, useLoadScript, Marker } from '@react-google-maps/api';
 import Gmaps from '../Map/Map';
+import LocationOnIcon from '@mui/icons-material/LocationOn';
 
 export default function Footer(){
     // const { isLoaded } = useLoadScript({ googleMapsApiKey: "AIzaSyCYBB_xL5jGv3mOvcxp2ddyzkOpmpB3NtU"});
@@ -61,7 +62,7 @@ export default function Footer(){
 
             </section>
             <section className=" mt-2 h-48 w-80">
-                <h2 className = "font-montserrat text-xl font-bold">📍Avenida Salvador Lara 985</h2>
+                <h2 className = "font-montserrat text-xl font-bold pb-2"><LocationOnIcon />Av Salvador Lara 985</h2>
                 <Gmaps />
             </section>
         </body>

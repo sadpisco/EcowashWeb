@@ -21,7 +21,7 @@
     background-position: center;
     background-attachment: scroll; 
     background-size:cover;
-    height: 500px;
+    min-height: 600px;
 }
 
 .compDivOne{
@@ -41,6 +41,14 @@
 .compDivTwo{
     background-color: rgba(25, 25, 25, 0.748);
     backdrop-filter: blur(7px);
+    box-shadow: 0px 0px 10px 2px black;
 
     
+}
+
+.compDivThree{
+    background-color: rgba(25, 25, 25, 0.748);
+    backdrop-filter: blur(7px);
+    box-shadow: 0px 0px 10px 2px black;
+
 }

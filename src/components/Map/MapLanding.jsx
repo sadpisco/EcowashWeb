@@ -3,10 +3,10 @@ import styles from './Map.module.css';
 import { GoogleMap, useJsApiLoader, Marker } from '@react-google-maps/api';
 
 const containerStyle = {
-  width: '100%',
-  height: '90%',
+  width: '90%',
+  height: '280px',
   borderRadius: '10px',
-  boxShadow: '0px 0px 2px 2px black',
+  boxShadow: '0px 0px 20px 0px black',
   paddingTop: '5px'
 };
 
@@ -14,9 +14,9 @@ const center = {
   lat: -8.09907,
   lng: -79.02473
 };
-center
 
-function GMaps() {
+
+function MapLanding() {
   const { isLoaded } = useJsApiLoader({
     id: 'google-map-script',
     googleMapsApiKey: "AIzaSyCYBB_xL5jGv3mOvcxp2ddyzkOpmpB3NtU"
@@ -40,16 +40,16 @@ function GMaps() {
       <GoogleMap
         mapContainerStyle={containerStyle}
         center={center}
-        zoom= {8}
+        zoom = {8}
         onLoad={onLoad}
         onUnmount={onUnmount}
       >
-        <div>
+        
         <Marker position = {center} label={"Ecowash"}/>
-        </div>
+        
       </GoogleMap>
   ) : <p>Cargando...</p>
 }
 
-export default React.memo(GMaps);
+export default React.memo(MapLanding);
 
