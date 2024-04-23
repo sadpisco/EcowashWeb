@@ -1,6 +1,7 @@
 import React from 'react';
 import Footer from '../../components/Footer/Footer';
 import NavBar from '../../components/NavBar/NavBar';
+import Calendly from '../../components/Calendly/Calendly';
 
 export default function Booking(){
     return(
@@ -9,7 +10,7 @@ export default function Booking(){
                 <NavBar />
             </header>
             <body className = "bg-slate-800  h-auto w-full flex flex-col items-start justify-center">
-                <h1>Reservar Cita</h1>
+                <Calendly />
             </body>
             <footer className = "w-full">
                 <Footer />
