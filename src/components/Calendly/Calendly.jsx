@@ -1,9 +1,11 @@
 import React from 'react';
 
+
 export default function Calendly(){
     return(
-        <main>
+        <div>
             <h1>Calendly</h1>
-        </main>
+            
+        </div>
     )
 }

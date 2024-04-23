@@ -8,7 +8,7 @@ import logoOne from '../../assets/3m.png';
 import logoTwo from '../../assets/sonax.png';
 import logoThree from '../../assets/karcher.png';
 import logoFour from '../../assets/wurth.png';
-import logoFive from '../../assets/motul.png'
+import logoFive from '../../assets/brafinsa.png';
 import EditCalendarIcon from '@mui/icons-material/EditCalendar';
 import imageDivTwo from '../../assets/LandingImage3.jpg';
 import imageDivThree from '../../assets/LandingImage5.jpg';
@@ -37,7 +37,7 @@ export default function Landing(){
                         <img src = {logoTwo} className = {styles.Sonax} />
                         <img src = {logoThree} className = {styles.img} />
                         <img src = {logoFour} className = {styles.img} />
-                        <img src = {logoFive} className = {styles.img} />
+                        <img src = {logoFive} className = {styles.brafinsa} />
                     </div>
                 </section>
 

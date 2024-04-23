@@ -9,6 +9,7 @@ import Nosotros from './views/Nosotros/Nosotros';
 import Services from './views/Services/Services';
 import Contact from './views/Contact/Contact';
 
+
 function App() {
   return (
     <div className = 'App'>
@@ -19,6 +20,7 @@ function App() {
         <Route path = '/services' element = {<Services />}/>
         <Route path = '/contact' element = {<Contact />}/>
       </Routes>
+
     </div>
   )
 }
