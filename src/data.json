@@ -34,7 +34,7 @@
     },
     "lavados": [{
         "nombre":"Lavado exterior",
-        "descripcion": "Lavado simple de carrocería externa del vehiculo y lavado de llantas.",
+        "descripcion": "Lavado simple de carrocería externa del vehiculo y lavado de llantas. Este servicio al ser el más módico de nuestra cartilla es muy rápido y se ejecuta en tan solo 3 - 5 minutos.",
         "img": "https://res.cloudinary.com/ductjwavg/image/upload/v1713688949/pexels-sleepi-alleyne-1740919_-_copia_q0igp6.jpg",
         "auto": 8,
         "suv": 10,
@@ -52,7 +52,7 @@
     },
     {
         "nombre":"Lavado especial",
-        "descripcion": "Lavado simple de carrocería externa del vehículo, lavado simple de interiores del vehículo, aspirado de interiores y maletera, siliconeado de tablero y llantas, interiores perfumados, encerado o lavado general de motor.",
+        "descripcion": "Lavado simple de interiores y exteriores del vehiculo, aspirado y perfumado de interiores y maletera, siliconeado de tablero y llantas, encerado o lavado general de motor.",
         "img": "https://res.cloudinary.com/ductjwavg/image/upload/v1713688415/pexels-tima-miroshnichenko-6873005_pjakyf.jpg",
         "auto": 25,
         "suv": 30,
@@ -61,7 +61,7 @@
     },
     {
         "nombre":"Lavado salón",
-        "descripcion": "Lavado profundo de carrocería externa del vehículo, lavado profundo de interiores del vehículo, aspirado de techo, suelo, interiores y maletera, siliconeado de tablero, puertas, maletera y llantas, interiores perfumados, encerado y lavado de motor.",
+        "descripcion": "Lavado profundo de interiores y exteriores, aspirado de techo, suelo, interiores y maletera, siliconeado de tablero, puertas, maletera y llantas, interiores perfumados, encerado y lavado de motor.",
         "img": "https://res.cloudinary.com/ductjwavg/image/upload/v1713688894/3_-_copia_yeuwi4.jpg",
         "auto": 200,
         "suv": 250,
