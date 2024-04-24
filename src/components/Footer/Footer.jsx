@@ -21,7 +21,7 @@ export default function Footer(){
             <section className=" mt-2 h-44 w-auto">
                 <h2 className = "font-montserrat text-2xl font-bold">Contáctanos</h2>
                 <div className="flex flex-row items-center justify-start mt-1">
-                    <CallIcon className = {styles.icon}/><h3 className="font-montserrat ms-1">Llámanos al <a href="tel:(51)(954163059)">+51 934091325</a></h3>
+                    <CallIcon className = {styles.icon}/><h3 className="font-montserrat ms-1">Llámanos al <a href="tel:(51)(934091325)">+51 934091325</a></h3>
                 </div>
                 <div className="flex flex-row items-center justify-start mt-1">
                     <AlternateEmailIcon className = {styles.icon}/><h3 className="font-montserrat ms-1">Escríbenos a <a href="mailto:ensege_fachasa@hotmail.com">ensege_fachasa@hotmail.com</a></h3>
