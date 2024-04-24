@@ -28,7 +28,7 @@ export default function Booking(){
             <div className = {styles.calendly}>
             <InlineWidget 
             url="https://calendly.com/leo99153" 
-            styles = {{height: '82vh', width: '100%', scrollBehavior: 'unset', backgroundColor: 'black'}}
+            styles = {{height: '82vh', width: '100%', backgroundColor: 'black'}}
             pageSettings={{
                 backgroundColor: '282828',
                 hideEventTypeDetails: false,

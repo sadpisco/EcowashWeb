@@ -13,7 +13,7 @@ import LocationOnIcon from '@mui/icons-material/LocationOn';
 export default function Footer(){
 
     return(
-        <div className = "sticky left-0 bottom-0 h-auto min-w-full  bg-slate-900 pt-6">
+        <div className = "sticky left-0 bottom-0 h-auto w-full  bg-slate-900 pt-6">
         <body className="flex flex-row justify-around items-center  h-auto">
             <section className="flex flex-col items-center justify-center w-auto">
                 <img src={logo} alt="Logo Ecowash" className=" h-32" />

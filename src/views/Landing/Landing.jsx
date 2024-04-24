@@ -19,7 +19,7 @@ import LocationOnIcon from '@mui/icons-material/LocationOn';
 export default function Landing(){
     console.log(lavados);
     return(
-        <main className="w-screen h-screen flex flex-col items-center justify-between">
+        <main className="w-full h-screen flex flex-col items-center justify-between">
             <header className="w-full">
                 <NavBar />
             </header>
