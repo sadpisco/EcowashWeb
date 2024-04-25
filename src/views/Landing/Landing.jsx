@@ -76,8 +76,8 @@ export default function Landing(){
                         </div>)}
                     </arctile>
                 </section>
-                <section className={`${styles.divThree} w-full h-auto flex flex-row items-center justify-center`}>
-                    <div className={`${styles.compDivTwo} flex h-[500px] w-[50%] flex-row items-center justify-around rounded p-10`}>
+                <section className={`${styles.divThree} w-full h-auto flex flex-row items-center justify-center p-10`}>
+                    <div className={`${styles.compDivTwo} flex h-[700px] w-[50%] flex-row items-center justify-around rounded p-3`}>
                         <article className="w-[600px] h-full flex flex-col items-center justify-around ">
                             <h1 className="font-montserrat text-center text-3xl font-medium">Ubícanos</h1>
                             <MapLanding />
@@ -86,7 +86,7 @@ export default function Landing(){
                                 <h2 className=" font-montserrat text-lg">Google Maps</h2>
                             </a>
                         </article>
-                    <img src = {imageDivThree} className='w-[300px] rounded shadow-2xl'/>
+                    {/* <img src = {imageDivThree} className='w-[300px] rounded shadow-2xl'/> */}
                     </div>
                 </section>
             </body>

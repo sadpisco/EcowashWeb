@@ -8,11 +8,12 @@ function MapLanding() {
       };
 
       const containerStyle = {
-        width: '90%',
-        height: '280px',
+        width: '800px',
+        height: '500px',
         borderRadius: '10px',
         boxShadow: '0px 0px 20px 0px black',
-        paddingTop: '5px'
+        padding: '1vh',
+        backgroundColor: 'white'
       };
 
   return (
