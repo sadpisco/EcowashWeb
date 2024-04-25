@@ -12,7 +12,7 @@ function MapLanding() {
         height: '500px',
         borderRadius: '10px',
         boxShadow: '0px 0px 20px 0px black',
-        padding: '1vh',
+        padding: '5px',
         backgroundColor: 'white'
       };
 

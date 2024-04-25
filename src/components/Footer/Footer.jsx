@@ -24,18 +24,18 @@ export default function Footer(){
                     <CallIcon className = {styles.icon}/><h3 className="font-montserrat ms-1">Llámanos al <a href="tel:(51)(934091325)">+51 934091325</a></h3>
                 </div>
                 <div className="flex flex-row items-center justify-start mt-1">
-                    <AlternateEmailIcon className = {styles.icon}/><h3 className="font-montserrat ms-1">Escríbenos a <a href="mailto:ensege_fachasa@hotmail.com">ensege_fachasa@hotmail.com</a></h3>
+                    <AlternateEmailIcon className = {styles.icon}/><h3 className="font-montserrat ms-1">Escríbenos a <a href="mailto:ensege_fachasa@hotmail.com" target="_blank">ensege_fachasa@hotmail.com</a></h3>
                 </div>
                 <section className="flex flex-row items-center justify-between w-[360px] mt-2 ">
-                    <a href='http://wa.me/51934091325' className = "text-white flex flex-row items-center justify-between h-auto w-[115px] p-2 bg-lime-600 rounded-sm shadow-black shadow-lg">
+                    <a href='http://wa.me/51934091325' target="_blank" className = "text-white flex flex-row items-center justify-between h-auto w-[115px] p-2 bg-lime-600 rounded-sm shadow-black shadow-lg">
                         <WhatsAppIcon />
                         <h3 className = "text-white">Whatsapp</h3>
                     </a>
-                    <a href='https://www.facebook.com/GrupoFachasa' className = "text-white flex flex-row items-center justify-between h-auto w-[115px] p-2 bg-sky-700 rounded-sm shadow-lg shadow-black">
+                    <a href='https://www.facebook.com/GrupoFachasa' target="_blank" className = "text-white flex flex-row items-center justify-between h-auto w-[115px] p-2 bg-sky-700 rounded-sm shadow-lg shadow-black">
                         <FacebookIcon />
                         <h3 className = "text-white">Facebook</h3>
                     </a>
-                    <a href='https://www.instagram.com/ecowash.pe/' className = "text-white flex flex-row items-center justify-between h-auto w-[115px] p-2 bg-orange-700 rounded-sm shadow-lg shadow-black">
+                    <a href='https://www.instagram.com/ecowash.pe/' target="_blank" className = "text-white flex flex-row items-center justify-between h-auto w-[115px] p-2 bg-orange-700 rounded-sm shadow-lg shadow-black">
                         <InstagramIcon />
                         <h3 className = "text-white">Instagram</h3>
                     </a>
@@ -44,7 +44,7 @@ export default function Footer(){
             <section className=" mt-2 h-44 w-[400px]">
                 <h2 className = "font-montserrat text-2xl font-bold">Trabaja con Nosotros</h2>
                 <div className="flex flex-row items-center justify-between mt-1">
-                    <h3 className="font-montserrat">Te ofrecemos un cálido ambiente laboral, beneficios de planilla, los salarios más competitivos del mercado y altas oportunidades de crecimiento. Envíanos tu CV al whatsapp <a href="tel:(51)(934091325)">934091325</a> o a <a href="mailto:ensege_fachasa@hotmail.com">ensege_fachasa@hotmail.com</a>.</h3>
+                    <h3 className="font-montserrat">Te ofrecemos un cálido ambiente laboral, beneficios de planilla, los salarios más competitivos del mercado y altas oportunidades de crecimiento. Envíanos tu CV al whatsapp <a href="tel:(51)(934091325)">934091325</a> o a <a href="mailto:ensege_fachasa@hotmail.com" target="_blank">ensege_fachasa@hotmail.com</a>.</h3>
                 </div>
 
             </section>
@@ -53,7 +53,7 @@ export default function Footer(){
                 <MapFooter />
             </section>
         </body>
-        <h3 className = "text-white text-center text-md font-montserrat pb-4">© Todos los derechos reserados. | Desarrollado por <a href='https://www.linkedin.com/in/leonardo-risco/' className = "text-blue text-center text-md font-montserrat">Leonardo Risco Web Developer</a></h3>
+        <h3 className = "text-white text-center text-md font-montserrat pb-4">© Todos los derechos reserados. | Desarrollado por <a target="_blank" href='https://www.linkedin.com/in/leonardo-risco/' className = "text-blue text-center text-md font-montserrat">Leonardo Risco Web Developer</a></h3>
         </div>
     )
 }

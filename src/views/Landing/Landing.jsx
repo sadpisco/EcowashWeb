@@ -64,10 +64,10 @@ export default function Landing(){
                     <h1 className = "font-montserrat font-bold text-4xl pb-8">Algunos de nuestros servicios</h1>
                     <arctile className ="flex flex-row items-center justify-center w-[90%] gap-8">
                         {lavados.map((element) => 
-                        <div className = "w-[320px] flex flex-col items-center justify-between p-6 h-[650px]  bg-slate-900 rounded-lg ">
+                        <div className = "w-[320px] flex flex-col items-center justify-between p-6 h-[500px]  bg-slate-900 rounded-lg ">
                             <img src = {element.img} className = "w-[300px] h-[380px] rounded-md shadow-2xl"/>
                             <h1 className = "font-montserrat text-2xl font-bold">{element.nombre}</h1>
-                            <p className = "font-montserrat text-start">{element.descripcion}</p>
+                            {/* <p className = "font-montserrat text-start">{element.descripcion}</p> */}
                             {/* <p className = "font-montserrat text-start text-lg font-semibold">Autos: S/. {element.auto}.00</p>
                             <p className = "font-montserrat text-start text-lg font-semibold">SUV: S/. {element.auto}.00</p>
                             <p className = "font-montserrat text-start text-lg font-semibold">4x4: S/. {element.forbyfor}.00</p>
