@@ -74,7 +74,6 @@ export default function Services(){
                             <p className = "font-montserrat text-center text-lg font-medium">Es uno de los efectos más acusados del paso del tiempo en los vehículos, incluso entre aquellos mejor cuidados por sus conductores. Los faros son pulidos utilizando productos especializados para ello y priorizar la presencia de tu vehiculo.</p>
                             <p className = "text-black font-montserrat font-semibold text-xl bg-slate-200 p-4 rounded-md">S/. 60</p>
                         </div>
-
                     </div>
                 </section >
             
