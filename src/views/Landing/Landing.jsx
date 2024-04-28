@@ -60,7 +60,7 @@ export default function Landing(){
                         </div>
                     </article>
                 </section>
-                <section className={`w-full flex h-auto min-h-[600px] flex-col items-center justify-center p-8 bg-black`}>
+                <section className={`w-full flex h-auto min-h-[600px] flex-col items-center justify-center p-8 bg-gradient-to-r from-neutral-900 to-gray-500`}>
                     <h1 className = "font-montserrat font-bold text-4xl pb-8">Algunos de nuestros servicios</h1>
                     <arctile className ="flex flex-row items-center justify-center w-[90%] gap-8">
                         {lavados.map((element) => 
