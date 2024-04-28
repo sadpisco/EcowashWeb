@@ -26,7 +26,7 @@ export default function Landing(){
             <body className = "bg-slate-600  h-auto w-full flex flex-col items-start justify-start">
                 <section className = {`${styles.divOne} w-full flex flex-col items-center justify-end`}>
                     <div className = {`${styles.compDivOne} w-full p-8`}>
-                    <h1 className = "text-white ml-80 font-montserrat text-4xl font-bold">{landing.titleOne}</h1>
+                    <h1 className = "text-white ml-80 font-montserrat text-4xl font-semibold">{landing.titleOne}</h1>
                     <p className = "text-white ml-80 font-montserrat text-xl">{landing.textOne}</p>
                     </div>
                 </section>
@@ -45,7 +45,7 @@ export default function Landing(){
                     <article className={`${styles.compDivTwo}  w-[50%] flex flex-row items-center justify-center rounded p-10`}>
                         <img src={imageDivTwo} className='w-[300px] rounded shadow-2xl' />
                         <div className="w-[600px] h-full flex flex-col items-center justify-center">
-                            <h1 className="font-montserrat text-center text-3xl font-medium">
+                            <h1 className="font-montserrat text-center text-4xl font-medium">
                                 {landing.titleTwo}
                             </h1>
                             <p className="font-montserrat text-center text-lg p-8">
@@ -61,12 +61,12 @@ export default function Landing(){
                     </article>
                 </section>
                 <section className={`w-full flex h-auto min-h-[600px] flex-col items-center justify-center p-8 bg-gradient-to-r from-neutral-900 to-gray-500`}>
-                    <h1 className = "font-montserrat font-bold text-4xl pb-8">Algunos de nuestros servicios</h1>
+                    <h1 className = "font-montserrat font-medium text-4xl pb-8">Algunos de nuestros servicios</h1>
                     <arctile className ="flex flex-row items-center justify-center w-[90%] gap-8">
                         {lavados.map((element) => 
                         <div className = "w-[320px] flex flex-col items-center justify-between p-6 h-[500px]  bg-slate-900 rounded-lg ">
                             <img src = {element.img} className = "w-[300px] h-[380px] rounded-md shadow-2xl"/>
-                            <h1 className = "font-montserrat text-2xl font-bold">{element.nombre}</h1>
+                            <h1 className = "font-montserrat text-2xl font-semibold">{element.nombre}</h1>
                             {/* <p className = "font-montserrat text-start">{element.descripcion}</p> */}
                             {/* <p className = "font-montserrat text-start text-lg font-semibold">Autos: S/. {element.auto}.00</p>
                             <p className = "font-montserrat text-start text-lg font-semibold">SUV: S/. {element.auto}.00</p>
@@ -79,7 +79,7 @@ export default function Landing(){
                 <section className={`${styles.divThree} w-full h-auto flex flex-row items-center justify-center p-10`}>
                     <div className={`${styles.compDivTwo} flex h-[700px] w-[50%] flex-row items-center justify-around rounded p-3`}>
                         <article className="w-[600px] h-full flex flex-col items-center justify-around ">
-                            <h1 className="font-montserrat text-center text-3xl font-medium">Ubícanos</h1>
+                            <h1 className="font-montserrat text-center text-4xl font-medium">Ubícanos</h1>
                             <MapLanding />
                             <a href='https://maps.app.goo.gl/p26UAheG15eJNkRL7' className="flex flex-row items-center w-[190px] h-[60px] justify-around bg-slate-800 text-white rounded-md p-4 shadow-2xl">
                                 <LocationOnIcon />

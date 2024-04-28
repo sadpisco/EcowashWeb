@@ -65,7 +65,7 @@ export default function Services(){
                         <div className = "flex flex-col items-center gap-8 justify-around w-[30%] ">
                         <img src = {carroceriaImg} className = "h-[200px] rounded-lg border-4 border-white shadow-2xl"/>
                             <h4 className = "font-montserrat text-center text-2xl font-bold">Tratamiento de pintura</h4>
-                            <p className = "font-montserrat text-center text-lg font-medium">Recubrimientos cerámicos o cerámicos líquidos de alta calidad son aplicados a la pintura del vehiculo. Estos recubrimientos proporcionan una capa duradera y resistente que protege la pintura contra los rayos UV, los contaminantes ambientales, los arañazos y la decoloración.</p>
+                            <p className = " font-montserrat text-center text-lg font-medium">Recubrimientos cerámicos o cerámicos líquidos de alta calidad son aplicados a la pintura del vehiculo. Estos recubrimientos proporcionan una capa duradera y resistente que protege la pintura contra los rayos UV, los contaminantes ambientales, los arañazos y la decoloración.</p>
                             <p className = "text-black font-montserrat font-semibold text-xl bg-slate-200 p-4 rounded-md">S/. 180</p>
                         </div>
                         <div className = "flex flex-col items-center gap-8 justify-around w-[30%] ">
