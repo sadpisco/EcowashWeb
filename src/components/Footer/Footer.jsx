@@ -27,15 +27,15 @@ export default function Footer(){
                     <AlternateEmailIcon className = {styles.icon}/><h3 className="font-montserrat ms-1">Escríbenos a <a href="mailto:ensege_fachasa@hotmail.com" target="_blank">ensege_fachasa@hotmail.com</a></h3>
                 </div>
                 <section className="flex flex-row items-center justify-between w-[360px] mt-2 ">
-                    <a href='http://wa.me/51934091325' target="_blank" className = "text-white flex flex-row items-center justify-between h-auto w-[115px] p-2 bg-lime-600 rounded-sm shadow-black shadow-lg">
+                    <a href='http://wa.me/51934091325' target="_blank" className = "text-white flex flex-row items-center justify-between h-auto w-[115px] p-2 bg-green-600 rounded-sm shadow-black shadow-lg">
                         <WhatsAppIcon />
-                        <h3 className = "text-white">Whatsapp</h3>
+                        <h3 className = "text-white">WhatsApp</h3>
                     </a>
                     <a href='https://www.facebook.com/GrupoFachasa' target="_blank" className = "text-white flex flex-row items-center justify-between h-auto w-[115px] p-2 bg-sky-700 rounded-sm shadow-lg shadow-black">
                         <FacebookIcon />
                         <h3 className = "text-white">Facebook</h3>
                     </a>
-                    <a href='https://www.instagram.com/ecowash.pe/' target="_blank" className = "text-white flex flex-row items-center justify-between h-auto w-[115px] p-2 bg-orange-700 rounded-sm shadow-lg shadow-black">
+                    <a href='https://www.instagram.com/ecowash.pe/' target="_blank" className = "text-white flex flex-row items-center justify-between h-auto w-[115px] p-2 bg-orange-600 rounded-sm shadow-lg shadow-black">
                         <InstagramIcon />
                         <h3 className = "text-white">Instagram</h3>
                     </a>
