@@ -24,7 +24,6 @@ export default function Booking(){
                 <NavBar />
             </header>
             <section className = "bg-slate-800  h-auto w-full flex flex-col items-start justify-center">
-
             <div className = {styles.calendly}>
             <InlineWidget 
             url="https://calendly.com/leo99153" 
@@ -39,7 +38,6 @@ export default function Booking(){
                 scrollBehavior: 'unset'
               }}
               utm={utmParams}
-              
             />
             </div>
             </section>
