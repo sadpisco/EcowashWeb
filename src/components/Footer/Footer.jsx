@@ -14,7 +14,7 @@ export default function Footer(){
 
     return(
         <div className = "sticky left-0 bottom-0 h-auto w-full  bg-slate-900 pt-6">
-        <body className="flex flex-row justify-around items-center  h-auto">
+        <section className="flex flex-row justify-around items-center  h-auto">
             <section className="flex flex-col items-center justify-center w-auto">
                 <img src={logo} alt="Logo Ecowash" className=" h-32" />
             </section>
@@ -52,7 +52,7 @@ export default function Footer(){
                 <h2 className = "font-montserrat text-xl font-bold pb-2"><LocationOnIcon />Av Salvador Lara 985</h2>
                 <MapFooter />
             </section>
-        </body>
+        </section>
         <h3 className = "text-white text-center text-md font-montserrat pb-4">© Todos los derechos reserados. | Desarrollado por <a target="_blank" href='https://www.linkedin.com/in/leonardo-risco/' className = "text-blue text-center text-md font-montserrat">Leonardo Risco Web Developer</a></h3>
         </div>
     )

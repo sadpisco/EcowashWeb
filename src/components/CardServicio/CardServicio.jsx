@@ -2,7 +2,6 @@ import React from 'react';
 import styles from './CardServicio.module.css';
 
 export default function CardServicio(service){
-    console.log(service);
     return(
         <div className = "w-[1000px] max-w-[90%] h-auto min-h-[380px] flex flex-row items-center justify-center rounded-lg">
             <img src = {service.service.img} alt = {service.service.nombre} className = "w-[300px] h-[380px] shadow-2xl rounded-lg"/>

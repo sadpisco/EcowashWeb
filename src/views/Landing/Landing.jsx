@@ -17,13 +17,12 @@ import LocationOnIcon from '@mui/icons-material/LocationOn';
 
 
 export default function Landing(){
-    console.log(lavados);
     return(
         <main className="w-full h-screen flex flex-col items-center justify-between">
             <header className="w-full">
                 <NavBar />
             </header>
-            <body className = "bg-slate-600  h-auto w-full flex flex-col items-start justify-start">
+            <section className = "bg-slate-600  h-auto w-full flex flex-col items-start justify-start">
                 <section className = {`${styles.divOne} w-full flex flex-col items-center justify-end`}>
                     <div className = {`${styles.compDivOne} w-full p-8`}>
                     <h1 className = "text-white ml-80 font-montserrat text-4xl font-semibold">{landing.titleOne}</h1>
@@ -62,9 +61,9 @@ export default function Landing(){
                 </section>
                 <section className={`w-full flex h-auto min-h-[600px] flex-col items-center justify-center p-8 bg-gradient-to-r from-neutral-900 to-gray-500`}>
                     <h1 className = "font-montserrat font-medium text-4xl pb-8">Algunos de nuestros servicios</h1>
-                    <arctile className ="flex flex-row items-center justify-center w-[90%] gap-8">
+                    <article className ="flex flex-row items-center justify-center w-[90%] gap-8">
                         {lavados.map((element) => 
-                        <div className = "w-[320px] flex flex-col items-center justify-between p-6 h-[500px]  bg-slate-900 rounded-lg ">
+                        <div className = "w-[320px] flex flex-col items-center justify-between p-6 h-[500px]  bg-slate-900 rounded-lg" key = {element.nombre}>
                             <img src = {element.img} className = "w-[300px] h-[380px] rounded-md shadow-2xl"/>
                             <h1 className = "font-montserrat text-2xl font-semibold">{element.nombre}</h1>
                             {/* <p className = "font-montserrat text-start">{element.descripcion}</p> */}
@@ -74,7 +73,7 @@ export default function Landing(){
                             <p className = "font-montserrat text-start text-lg font-semibold">Vans: S/. {element.va}.00</p> */}
 
                         </div>)}
-                    </arctile>
+                    </article>
                 </section>
                 <section className={`${styles.divThree} w-full h-auto flex flex-row items-center justify-center p-10`}>
                     <div className={`${styles.compDivTwo} flex h-[700px] w-[50%] flex-row items-center justify-around rounded p-3`}>
@@ -89,7 +88,7 @@ export default function Landing(){
                     {/* <img src = {imageDivThree} className='w-[300px] rounded shadow-2xl'/> */}
                     </div>
                 </section>
-            </body>
+            </section>
             <footer className = "w-full">
                 <Footer />
             </footer>

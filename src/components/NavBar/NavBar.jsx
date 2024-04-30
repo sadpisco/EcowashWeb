@@ -11,7 +11,7 @@ import logoExample from '../../assets/logoexample.png';
 
 export default function NavBar() {
     return (
-        <body className= {`${styles.navBar} bg-slate-900 flex flex-row items-center justify-around h-20 w-full`}>
+        <section className= {`${styles.navBar} bg-slate-900 flex flex-row items-center justify-around h-20 w-full`}>
             <section className="flex flex-row items-center justify-center h-14">
                 <img src={logoExample} alt="Logo Ecowash" className = "h-24" />
             </section>
@@ -47,6 +47,6 @@ export default function NavBar() {
                     </button>
                 </Link>
             </section>
-        </body>
+        </section>
     );
 };

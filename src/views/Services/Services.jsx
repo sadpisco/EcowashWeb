@@ -15,7 +15,6 @@ export default function Services(){
     const amountOfCards = info.lavados.length; //4
     let [index, setIndex] = useState(0)
     const [service, setService ] = useState(info.lavados[index]);
-    console.log(index);
 
     function nextSlide(){
         if(index == (amountOfCards - 1)){
@@ -42,7 +41,7 @@ export default function Services(){
             <header className = "w-full">
                 <NavBar />
             </header>
-            <body className = "bg-slate-800  h-auto w-full flex flex-col items-start justify-center">
+            <section className = "bg-slate-800  h-auto w-full flex flex-col items-start justify-center">
                 <section className = {`${styles.divOne} w-full flex flex-col items-center justify-center h-[350px]`}>
                 <h1 className = "font-montserrat font-semibold">Nuestros Servicios</h1>
                 </section>
@@ -77,7 +76,7 @@ export default function Services(){
                     </div>
                 </section >
             
-            </body>
+            </section>
             <footer className = "w-full">
                 <Footer />
             </footer>
