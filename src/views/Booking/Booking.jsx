@@ -23,7 +23,7 @@ export default function Booking(){
             <header className = "w-full">
                 <NavBar />
             </header>
-            <body className = "bg-slate-800  h-auto w-full flex flex-col items-start justify-center">
+            <section className = "bg-slate-800  h-auto w-full flex flex-col items-start justify-center">
 
             <div className = {styles.calendly}>
             <InlineWidget 
@@ -42,7 +42,7 @@ export default function Booking(){
               
             />
             </div>
-            </body>
+            </section>
             <footer className = "w-full">
                 <Footer />
             </footer>
