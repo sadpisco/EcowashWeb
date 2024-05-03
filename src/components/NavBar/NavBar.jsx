@@ -22,26 +22,26 @@ export default function NavBar() {
                         <h2 className = " font-montserrat p-1">Home</h2>
                     </button>
                 </Link>
-                <Link to="/services" className="text-white p-2">
-                    <button className = "flex flex-row items-center justify-center">
+                <Link to="/services" className="text-white p-2 bg-transparent">
+                    <button className = "flex flex-row items-center justify-center bg-transparent">
                         <DirectionsCarFilledIcon className = {styles.icon}/>
                         <h2 className = " font-montserrat p-1">Servicios</h2>
                     </button>
                 </Link>
-                <Link to="/nosotros" className="text-white p-2">
-                    <button className = "flex flex-row items-center justify-center">
+                <Link to="/nosotros" className="text-white p-2 bg-transparent">
+                    <button className = "flex flex-row items-center justify-center bg-transparent">
                         <BusinessIcon className = {styles.icon}/>
                         <h2 className = " font-montserrat p-1">Nosotros</h2>
                     </button>
                 </Link>
-                <Link to="/contact" className="text-white p-2">
-                    <button className = "flex flex-row items-center justify-center">
+                <Link to="/contact" className="text-white p-2 bg-transparent">
+                    <button className = "flex flex-row items-center justify-center bg-transparent">
                         <CallIcon className = {styles.icon}/>
                         <h2 className = " font-montserrat p-1">Contacto</h2>
                     </button>
                 </Link>
-                <Link to="/booking" className="text-white p-2">
-                    <button className = "flex flex-row items-center justify-center">
+                <Link to="/booking" className="text-white p-2 bg-transparent">
+                    <button className = "flex flex-row items-center justify-center bg-transparent">
                         <EditCalendarIcon className = {styles.icon}/>
                         <h2 className = " font-montserrat p-1">Reservar Cita</h2>
                     </button>
