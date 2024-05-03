@@ -16,8 +16,8 @@ export default function NavBar() {
                 <img src={logoExample} alt="Logo Ecowash" className = "h-24" />
             </section>
             <section className="flex flex-row">
-                <Link to="/" className="text-white p-2">
-                    <button className = "flex flex-row items-center justify-center">
+                <Link to="/" className="text-white p-2 bg-transparent">
+                    <button className = "flex flex-row items-center justify-center bg-transparent">
                         <CottageIcon className = {styles.icon}/>
                         <h2 className = " font-montserrat p-1">Home</h2>
                     </button>

@@ -43,7 +43,7 @@ export default function Services(){
             </header>
             <section className = "bg-slate-800  h-auto w-full flex flex-col items-start justify-center">
                 <section className = {`${styles.divOne} w-full flex flex-col items-center justify-center h-[350px]`}>
-                <h1 className = "font-montserrat font-semibold">Nuestros Servicios</h1>
+                <h1 className = "font-montserrat font-semibold text-white">Nuestros Servicios</h1>
                 </section>
                 <section className = "w-full flex flex-col items-center justify-center h-auto p-10 bg-gradient-to-r from-black to-slate-500 ">
                     {service && <CardServicio service = {service}/>}
@@ -53,24 +53,24 @@ export default function Services(){
                     </div>
                 </section>
                 <section className = "w-full flex flex-col items-center justify-center p-[4vh] h-auto bg-gradient-to-r from-slate-700 to-slate-900 ">
-                    <h1 className = "font-montserrat font-semibold w-full text-center">Otros Servicios</h1>
+                    <h1 className = "font-montserrat font-semibold w-full text-center text-white">Otros Servicios</h1>
                     <div className = "bg-gray h-[80%] w-[90%] flex items-center justify-around p-[4vh]">
                         <div className = "flex flex-col items-center gap-8 justify-around w-[30%] ">
                             <img src = {descontaminadoImg} className = "h-[200px] rounded-lg border-4 border-white shadow-2xl"/>
-                            <h4 className = "font-montserrat text-center text-2xl font-bold">Descontaminación de carrocería</h4>
-                            <p className = "font-montserrat text-center text-lg font-medium">Limpieza profunda y detallada utilizando diferentes técnicas y productos para lograr eliminar aquellas partículas que se incrustan en la superficie del coche, sin perjudicar a la pintura ni rayarlo.</p>
+                            <h4 className = "font-montserrat text-center text-2xl font-bold text-white">Descontaminación de carrocería</h4>
+                            <p className = "font-montserrat text-center text-lg font-medium text-white">Limpieza profunda y detallada utilizando diferentes técnicas y productos para lograr eliminar aquellas partículas que se incrustan en la superficie del coche, sin perjudicar a la pintura ni rayarlo.</p>
                             <p className = "text-black font-montserrat font-semibold text-xl bg-slate-200 p-4 rounded-md">S/. 80</p>
                         </div>
                         <div className = "flex flex-col items-center gap-8 justify-around w-[30%] ">
                         <img src = {carroceriaImg} className = "h-[200px] rounded-lg border-4 border-white shadow-2xl"/>
-                            <h4 className = "font-montserrat text-center text-2xl font-bold">Tratamiento de pintura</h4>
-                            <p className = " font-montserrat text-center text-lg font-medium">Recubrimientos cerámicos o cerámicos líquidos de alta calidad son aplicados a la pintura del vehiculo. Estos recubrimientos proporcionan una capa duradera y resistente que protege la pintura contra los rayos UV, los contaminantes ambientales, los arañazos y la decoloración.</p>
+                            <h4 className = "font-montserrat text-center text-2xl font-bold text-white">Tratamiento de pintura</h4>
+                            <p className = " font-montserrat text-center text-lg font-medium text-white">Recubrimientos cerámicos o cerámicos líquidos de alta calidad son aplicados a la pintura del vehiculo. Estos recubrimientos proporcionan una capa duradera y resistente que protege la pintura contra los rayos UV, los contaminantes ambientales, los arañazos y la decoloración.</p>
                             <p className = "text-black font-montserrat font-semibold text-xl bg-slate-200 p-4 rounded-md">S/. 180</p>
                         </div>
                         <div className = "flex flex-col items-center gap-8 justify-around w-[30%] ">
                         <img src = {pulidoImg} className = "h-[200px] rounded-lg border-4 border-white shadow-2xl"/>
-                            <h4 className = "font-montserrat text-center text-2xl font-bold">Pulido de faros</h4>
-                            <p className = "font-montserrat text-center text-lg font-medium">Es uno de los efectos más acusados del paso del tiempo en los vehículos, incluso entre aquellos mejor cuidados por sus conductores. Los faros son pulidos utilizando productos especializados para ello y priorizar la presencia de tu vehiculo.</p>
+                            <h4 className = "font-montserrat text-center text-2xl font-bold text-white">Pulido de faros</h4>
+                            <p className = "font-montserrat text-center text-lg font-medium text-white">Es uno de los efectos más acusados del paso del tiempo en los vehículos, incluso entre aquellos mejor cuidados por sus conductores. Los faros son pulidos utilizando productos especializados para ello y priorizar la presencia de tu vehiculo.</p>
                             <p className = "text-black font-montserrat font-semibold text-xl bg-slate-200 p-4 rounded-md">S/. 60</p>
                         </div>
                     </div>
