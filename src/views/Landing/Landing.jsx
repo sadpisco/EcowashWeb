@@ -44,10 +44,10 @@ export default function Landing(){
                     <article className={`${styles.compDivTwo}  w-[50%] flex flex-row items-center justify-center rounded p-10`}>
                         <img src={imageDivTwo} className='w-[300px] rounded shadow-2xl' />
                         <div className="w-[600px] h-full flex flex-col items-center justify-center">
-                            <h1 className="font-montserrat text-center text-4xl font-medium">
+                            <h1 className="font-montserrat text-center text-4xl font-medium text-white">
                                 {landing.titleTwo}
                             </h1>
-                            <p className="font-montserrat text-center text-lg p-8">
+                            <p className="font-montserrat text-center text-lg p-8 text-white">
                                 {landing.textTwo}
                             </p>
                             <Link to='./booking' className="text-white p-2">
