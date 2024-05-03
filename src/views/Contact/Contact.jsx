@@ -25,7 +25,7 @@ export default function Contact() {
                         <a href="tel:(51)(934091325)" className="  flex flex-row text-center items-center w-[350px] h-[50px] justify-start  text-white rounded-md font-montserrat text-lg"><CallIcon />+51 934091325</a>
                     </section>
                     <section className="flex flex-col items-center justify-around h-full">
-                        <h1 className="text-center font-montserrat font-semibold text-4xl">Redes</h1>
+                        <h1 className="text-center font-montserrat font-semibold text-4xl text-white">Redes</h1>
                         <a href='http://wa.me/51934091325' target="_blank" className="text-white flex flex-row items-center justify-between h-auto w-[115px] p-2 bg-green-600 rounded-sm shadow-black shadow-lg">
                             <WhatsAppIcon />
                             <h3 className="text-white">WhatsApp</h3>
