@@ -22,11 +22,11 @@ export default function Landing(){
             <header className="w-screen">
                 <NavBar />
             </header>
-            <section className = "bg-slate-600  h-auto w-full flex flex-col items-start justify-start">
-                <section className = {`${styles.divOne} w-full flex flex-col items-center justify-end`}>
-                    <div className = {`${styles.compDivOne} w-full p-8`}>
-                    <h1 className = "text-white ml-80 font-montserrat text-4xl font-semibold">{landing.titleOne}</h1>
-                    <p className = "text-white ml-80 font-montserrat text-xl">{landing.textOne}</p>
+            <section className = "bg-slate-600  h-auto w-screen flex flex-col items-start justify-start">
+                <section className = {`${styles.divOne} w-screen flex flex-col items-center justify-end`}>
+                    <div className = {`${styles.compDivOne} w-full p-8 flex flex-col items-start justify-start`}>
+                    <h1 className = "text-white font-montserrat text-4xl font-semibold pb-[2vh]">{landing.titleOne}</h1>
+                    <p className = "text-white font-montserrat text-xl">{landing.textOne}</p>
                     </div>
                 </section>
                 <section className = "bg-white w-full h-auto flex flex-col items-center justify-center p-4">
@@ -41,13 +41,13 @@ export default function Landing(){
                 </section>
 
                 <section className={`${styles.divTwo} w-full flex flex-row items-center justify-center`}>
-                    <article className={`${styles.compDivTwo}  w-[50%] flex flex-row items-center justify-center rounded p-10`}>
+                    <article className={`${styles.compDivTwo}  w-[90%] max-w-[1000px] flex flex-row items-center justify-center rounded p-4`}>
                         <img src={imageDivTwo} className='w-[300px] rounded shadow-2xl' />
                         <div className="w-[600px] h-full flex flex-col items-center justify-center">
                             <h1 className="font-montserrat text-center text-4xl font-medium text-white">
                                 {landing.titleTwo}
                             </h1>
-                            <p className="font-montserrat text-center text-lg p-8 text-white">
+                            <p className="font-montserrat text-center text-lg p-4 text-white">
                                 {landing.textTwo}
                             </p>
                             <Link to='./booking' className="text-white p-2">
