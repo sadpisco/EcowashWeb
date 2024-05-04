@@ -26,7 +26,7 @@ export default function Footer(){
                 <div className="flex flex-row items-center justify-start mt-1 text-white">
                     <AlternateEmailIcon className = {styles.icon}/><h3 className="font-montserrat ms-1">Escríbenos a <a href="mailto:ensege_fachasa@hotmail.com" target="_blank">ensege_fachasa@hotmail.com</a></h3>
                 </div>
-                <section className="flex flex-row items-center justify-between w-[360px] mt-2 ">
+                <section className="flex flex-row items-center justify-between min-w-[360px] mt-2 ">
                     <a href='http://wa.me/51934091325' target="_blank" className = "text-white flex flex-row items-center justify-between h-auto min-w-[115px] p-2 bg-green-600 rounded-sm shadow-black shadow-lg">
                         <WhatsAppIcon />
                         <h3 className = "text-white">WhatsApp</h3>
