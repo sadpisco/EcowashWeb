@@ -38,7 +38,7 @@ export default function Services(){
 
     return(
         <main className="w-screen min-h-screen flex flex-col items-center justify-between">
-            <header className = "w-full">
+            <header className = "w-screen">
                 <NavBar />
             </header>
             <section className = "bg-slate-800  h-auto w-full flex flex-col items-start justify-center">

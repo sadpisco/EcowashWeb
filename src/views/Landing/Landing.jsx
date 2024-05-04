@@ -51,7 +51,7 @@ export default function Landing(){
                                 {landing.textTwo}
                             </p>
                             <Link to='./booking' className="text-white p-2">
-                                <button className="flex flex-row items-center w-[190px] h-[60px] justify-around bg-slate-800 rounded-md p-4 shadow-2xl">
+                                <button className="flex flex-row items-center min-w-[190px] h-[60px] justify-around bg-slate-800 rounded-md p-4 shadow-2xl">
                                     <EditCalendarIcon />
                                     <h2 className=" font-montserrat text-lg">Separar cita</h2>
                                 </button>
@@ -80,7 +80,7 @@ export default function Landing(){
                         <article className="w-[90%] max-w-[900px] h-[auto] flex flex-col items-center justify-center gap-[3vh]" >
                             <h1 className="font-montserrat text-center text-2xl mt-[-20px] font-medium text-white lg:text-4xl">Ubícanos</h1>
                             <MapLanding />
-                            <a href='https://maps.app.goo.gl/p26UAheG15eJNkRL7' className="flex flex-row items-center w-[190px] h-[60px] justify-around bg-slate-800 text-white rounded-md p-4 shadow-2xl">
+                            <a href='https://maps.app.goo.gl/p26UAheG15eJNkRL7' className="flex flex-row items-center min-w-[190px] h-[60px] justify-around bg-slate-800 text-white rounded-md p-4 shadow-2xl">
                                 <LocationOnIcon />
                                 <h2 className=" font-montserrat text-lg">Google Maps</h2>
                             </a>
