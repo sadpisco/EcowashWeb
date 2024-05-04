@@ -8,8 +8,8 @@ function MapLanding() {
       };
 
       const containerStyle = {
-        width: '800px',
-        height: '500px',
+        width: '100%',
+        height: '700px',
         borderRadius: '10px',
         boxShadow: '0px 0px 20px 0px black',
         padding: '5px',
