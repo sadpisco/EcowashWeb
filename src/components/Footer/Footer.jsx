@@ -13,8 +13,8 @@ import LocationOnIcon from '@mui/icons-material/LocationOn';
 export default function Footer(){
 
     return(
-        <div className = "sticky left-0 bottom-0 h-auto w-full  bg-slate-900 pt-6">
-        <section className="flex flex-row justify-around items-center  h-auto">
+        <div className = "sticky left-0 bottom-0 h-auto w-screen  bg-slate-900 pt-6">
+        <section className="flex flex-col justify-around items-center h-auto xl:flex-row">
             <section className="flex flex-col items-center justify-center w-auto">
                 <img src={logo} alt="Logo Ecowash" className=" h-32" />
             </section>
@@ -41,7 +41,7 @@ export default function Footer(){
                     </a>
                 </section>
             </section>
-            <section className=" mt-2 h-44 w-[400px]">
+            <section className=" mt-2 ml-12 h-44 w-[400px] m-4">
                 <h2 className = "font-montserrat text-2xl font-bold text-white">Trabaja con Nosotros</h2>
                 <div className="flex flex-row items-center justify-between mt-1">
                     <h3 className="font-montserrat text-white">Te ofrecemos un cálido ambiente laboral, beneficios de planilla, los salarios más competitivos del mercado y altas oportunidades de crecimiento. Envíanos tu CV al whatsapp <a href="tel:(51)(934091325)">934091325</a> o a <a href="mailto:ensege_fachasa@hotmail.com" target="_blank">ensege_fachasa@hotmail.com</a>.</h3>
@@ -53,7 +53,7 @@ export default function Footer(){
                 <MapFooter />
             </section>
         </section>
-        <h3 className = "text-white text-center text-md font-montserrat pb-4">© Todos los derechos reserados. | Desarrollado por <a target="_blank" href='https://www.linkedin.com/in/leonardo-risco/' className = "text-blue text-center text-md font-montserrat">Leonardo Risco Web Developer</a></h3>
+        <h3 className = "text-white text-center text-md font-montserrat p-10 w-screen lg:pb-4">© Todos los derechos reserados. | Desarrollado por <a target="_blank" href='https://www.linkedin.com/in/leonardo-risco/' className = "text-blue text-center text-md font-montserrat">Leonardo Risco Web Developer</a></h3>
         </div>
     )
 }
