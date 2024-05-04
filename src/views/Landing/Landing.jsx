@@ -31,8 +31,8 @@ export default function Landing(){
                 </section>
                 <section className = "bg-white w-full h-auto flex flex-col items-center justify-center p-4">
                     <h1 className = "font-montserrat text-4xl font-bold text-black p-4">Trabajamos con</h1>
-                    <div className = "w-full h-auto flex flex-row items-center justify-around p-6">
-                        <img src = {logoOne} className = {styles.img} />
+                    <div className = "w-full h-auto flex flex-col items-center gap-[4vh] justify-around p-6 lg:flex-row lg:gap-0">
+                        <img src = {logoOne} className = {styles.M3} />
                         <img src = {logoTwo} className = {styles.Sonax} />
                         <img src = {logoThree} className = {styles.img} />
                         <img src = {logoFour} className = {styles.img} />
@@ -41,13 +41,13 @@ export default function Landing(){
                 </section>
 
                 <section className={`${styles.divTwo} w-full flex flex-row items-center justify-center`}>
-                    <article className={`${styles.compDivTwo}  w-[90%] max-w-[1000px] flex flex-row items-center justify-center rounded p-4`}>
-                        <img src={imageDivTwo} className='w-[300px] rounded shadow-2xl' />
-                        <div className="w-[600px] h-full flex flex-col items-center justify-center">
-                            <h1 className="font-montserrat text-center text-4xl font-medium text-white">
+                    <article className={`${styles.compDivTwo}  w-[90%] max-w-[1000px] flex flex-row items-center justify-center rounded p-0 h-[90%]`}>
+                        <img src={imageDivTwo} className='max-w-[40%] min-h-[70%] rounded shadow-2xl' />
+                        <div className="w-[55%] h-full flex flex-col items-center justify-center">
+                            <h1 className="font-montserrat text-center text-3xl font-medium text-white w-full lg:text-4xl pt-4">
                                 {landing.titleTwo}
                             </h1>
-                            <p className="font-montserrat text-center text-lg p-4 text-white">
+                            <p className="font-montserrat text-center text-md p-4 text-white w-[100%] lg:text-lg">
                                 {landing.textTwo}
                             </p>
                             <Link to='./booking' className="text-white p-2">
@@ -60,12 +60,12 @@ export default function Landing(){
                     </article>
                 </section>
                 <section className={`w-full flex h-auto min-h-[600px] flex-col items-center justify-center p-8 bg-gradient-to-r from-neutral-900 to-gray-500`}>
-                    <h1 className = "font-montserrat font-medium text-4xl pb-8 text-white">Algunos de nuestros servicios</h1>
-                    <article className ="flex flex-row items-center justify-center w-[90%] gap-8">
+                    <h1 className = "font-montserrat text-3xl text-center pb-8 font-medium text-white w-full lg:text-4xl pt-4">Algunos de nuestros servicios</h1>
+                    <article className ="ml-[4vh] flex flex-row items-center justify-start w-[auto] h-[auto] min-h-[400px] overflow-auto">
                         {lavados.map((element) => 
-                        <div className = "w-[320px] flex flex-col items-center justify-between p-6 h-[500px]  bg-slate-900 rounded-lg" key = {element.nombre}>
-                            <img src = {element.img} className = "w-[300px] h-[380px] rounded-md shadow-2xl"/>
-                            <h1 className = "font-montserrat text-2xl font-semibold text-white">{element.nombre}</h1>
+                        <div className = "ml-4 w-[auto] flex flex-col items-center justify-between p-6 h-[auto]  bg-slate-900 rounded-lg" key = {element.nombre}>
+                            <img src = {element.img} className = "min-w-[200px] w-auto h-[380px] max-h-[300px] rounded-md shadow-2xl"/>
+                            <h1 className = "font-montserrat text-2xl font-semibold text-white text-center">{element.nombre}</h1>
                             {/* <p className = "font-montserrat text-start">{element.descripcion}</p> */}
                             {/* <p className = "font-montserrat text-start text-lg font-semibold">Autos: S/. {element.auto}.00</p>
                             <p className = "font-montserrat text-start text-lg font-semibold">SUV: S/. {element.auto}.00</p>
