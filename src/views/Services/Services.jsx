@@ -45,7 +45,7 @@ export default function Services(){
                 <section className = {`${styles.divOne} w-full flex flex-col items-center justify-center h-[350px]`}>
                 <h1 className = "font-montserrat font-semibold text-whit text-center">Nuestros Servicios</h1>
                 </section>
-                <section className = " flex flex-col justify-center p-4 h-full w-full items-center bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))] ">
+                <section className = "p-[5vh] flex flex-col justify-center h-full w-full items-center bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))] ">
                     {service && <CardServicio service = {service}/>}
                     <div className = "flex flex-row items-center justify-center gap-[2vh] pt-[2vh]">
                     <button className = "bg-slate-200 p-0 rounded-md h-[60px] min-w-[150px] text-black flex items-center justify-center font-montserrat font-semibold text-lg shadow-xl" onClick={prevSlide}><NavigateBeforeIcon />Anterior</button>
