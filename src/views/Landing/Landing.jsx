@@ -41,7 +41,7 @@ export default function Landing(){
                 </section>
 
                 <section className={`${styles.divTwo} w-full flex flex-row items-center justify-center`}>
-                    <article className={`${styles.compDivTwo}  w-[90%] max-w-[1000px] flex flex-row items-center justify-center rounded p-0 h-[90%]`}>
+                    <article className={`${styles.compDivTwo}  w-[90%] max-w-[1000px] flex flex-row items-center justify-center rounded pt-8 pb-8 h-[auto]`}>
                         <img src={imageDivTwo} className='max-w-[40%] min-h-[25%] rounded shadow-2xl' />
                         <div className="w-[55%] h-full flex flex-col items-center justify-center">
                             <h1 className="font-montserrat text-center text-3xl font-medium text-white w-full lg:text-4xl pt-4">
@@ -61,7 +61,7 @@ export default function Landing(){
                 </section>
                 <section className={`w-full flex h-auto min-h-[600px] flex-col items-center justify-center p-8 bg-gradient-to-r from-neutral-900 to-gray-500`}>
                     <h1 className = "font-montserrat text-3xl text-center pb-8 font-medium text-white w-full lg:text-4xl pt-4">Algunos de nuestros servicios</h1>
-                    <article className ="ml-[4vh] flex flex-row items-center justify-start w-[auto] h-[auto] min-h-[400px] overflow-auto">
+                    <article className ="ml-[4vh] flex flex-row items-center justify-center w-screen h-[auto] min-h-[400px] overflow-auto">
                         {lavados.map((element) => 
                         <div className = "ml-4 w-[auto] flex flex-col items-center justify-between p-6 h-[auto]  bg-slate-900 rounded-lg" key = {element.nombre}>
                             <img src = {element.img} className = "min-w-[200px] w-auto h-[380px] max-h-[300px] rounded-md shadow-2xl"/>
@@ -75,9 +75,9 @@ export default function Landing(){
                         </div>)}
                     </article>
                 </section>
-                <section className={`${styles.divThree} w-screen h-[100vh] flex flex-row items-center justify-center p-10`}>
-                    <div className={`${styles.compDivTwo} flex h-[100%] w-[100%] max-w-[1000px] flex-col items-center justify-around rounded pt-10 pb-10` }>
-                        <article className="w-[90%] max-w-[900px] h-[90vh] flex flex-col items-center justify-center gap-[3vh]" >
+                <section className={`${styles.divThree} w-screen h-[90vh] flex flex-row items-center justify-center p-10`}>
+                    <div className={`${styles.compDivTwo} flex h-auto w-[100%] max-w-[1000px] flex-col items-center justify-around rounded pt-10 pb-10` }>
+                        <article className="w-[90%] max-w-[900px] h-[auto] flex flex-col items-center justify-center gap-[3vh]" >
                             <h1 className="font-montserrat text-center text-2xl mt-[-20px] font-medium text-white lg:text-4xl">Ubícanos</h1>
                             <MapLanding />
                             <a href='https://maps.app.goo.gl/p26UAheG15eJNkRL7' className="flex flex-row items-center w-[190px] h-[60px] justify-around bg-slate-800 text-white rounded-md p-4 shadow-2xl">
