@@ -18,8 +18,8 @@ import LocationOnIcon from '@mui/icons-material/LocationOn';
 
 export default function Landing(){
     return(
-        <main className="w-full h-screen flex flex-col items-center justify-between">
-            <header className="w-full">
+        <main className="w-screen h-screen flex flex-col items-center justify-between">
+            <header className="w-screen">
                 <NavBar />
             </header>
             <section className = "bg-slate-600  h-auto w-full flex flex-col items-start justify-start">
