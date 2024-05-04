@@ -41,9 +41,9 @@ export default function Landing(){
                 </section>
 
                 <section className={`${styles.divTwo} w-full flex flex-row items-center justify-center`}>
-                    <article className={`${styles.compDivTwo}  w-[auto] max-w-[1000px] flex flex-col items-center justify-center rounded pt-8 pb-8 h-[auto] lg:flex-row`}>
+                    <article className={`${styles.compDivTwo}  w-[auto] max-w-[1000px] flex flex-col items-center justify-center rounded p-8 h-[full] lg:flex-row`}>
                         <img src={imageDivTwo} className='max-w-[40%] min-h-[25%] rounded shadow-4xl' />
-                        <div className="w-[90%] h-full flex flex-col items-center justify-center">
+                        <div className="w-[80%] h-full flex flex-col items-center justify-center">
                             <h1 className="font-montserrat text-center text-3xl font-medium text-white w-full lg:text-4xl pt-4">
                                 {landing.titleTwo}
                             </h1>

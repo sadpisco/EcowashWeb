@@ -15,27 +15,27 @@ export default function Nosotros(){
                     <h1 className='text-black text-6xl font-montserrat font-bold p-6'>Nosotros</h1>
                 </section>
                 <section className = " flex flex-col items-center justify-center w-full gap-[3vh] p-[3vh]">
-                    <div className = "w-[60%] flex flex-col items-center justify-center gap-[3vh] p-[3vh] bg-slate-500/10 rounded">
-                    <h1 className = "text-center w-full font-montserrat text-4xl font-semibold text-white">¿Quienes somos?</h1>
-                    <p className = "font-montserrat text-justify text-lg font-normal text-white">{nosotros.QuienesSomos}</p>
+                    <div className = "w-[100%] max-w-[1400px] flex flex-col items-center justify-center gap-[3vh] p-[3vh] bg-slate-500/10 rounded">
+                    <h1 className = "text-center w-full font-montserrat text-2xl font-semibold text-white lg:text-4xl">¿Quienes somos?</h1>
+                    <p className = "font-montserrat text-justify text-lg font-normal text-white lg:text-xl">{nosotros.QuienesSomos}</p>
                     </div>
                 </section>
                 <section className = " flex flex-col items-center justify-center w-full gap-[3vh] p-[3vh]">
-                    <div className = "w-[60%] flex flex-col items-center justify-center gap-[3vh] p-[3vh] bg-slate-900/90 rounded" >
-                <h1 className = "text-center w-full font-montserrat text-4xl font-semibold text-white">Nuestra Historia</h1>
-                <p className = "font-montserrat text-justify text-lg font-normal text-white">{nosotros.NuestraHistoria}</p>
+                    <div className = "w-[100%] max-w-[1400px] flex flex-col items-center justify-center gap-[3vh] p-[3vh] bg-slate-900/90 rounded" >
+                <h1 className = "text-center w-full font-montserrat text-2xl lg:text-4xl font-semibold text-white">Nuestra Historia</h1>
+                <p className = "font-montserrat text-justify text-lg font-normal text-white lg:text-xl">{nosotros.NuestraHistoria}</p>
                 </div>
                 </section>
                 <section className = " flex flex-col items-center justify-center w-full gap-[3vh] p-[3vh]">
-                    <div className = "w-[60%] flex flex-col items-center justify-center gap-[3vh] p-[3vh] bg-slate-900/100 rounded">
-                    <h1 className = "text-center w-full font-montserrat text-4xl font-semibold text-white">Misión</h1>
-                    <p className = "font-montserrat text-justify text-lg font-normal text-white">{nosotros.Mision}</p>
+                    <div className = "w-[100%] max-w-[1400px] flex flex-col items-center justify-center gap-[3vh] p-[3vh] bg-slate-900/100 rounded">
+                    <h1 className = "text-center w-full font-montserrat text-2xl lg:text-4xl font-semibold text-white">Misión</h1>
+                    <p className = "font-montserrat text-justify text-lg font-normal text-white lg:text-xl">{nosotros.Mision}</p>
                     </div>
                 </section>
                 <section className = " flex flex-col items-center justify-center w-full gap-[3vh] p-[3vh]">
-                    <div className = "w-[60%] flex flex-col items-center justify-center gap-[3vh] p-[3vh] bg-slate-950/60 rounded">
-                    <h1 className = "text-center w-full font-montserrat text-4xl font-semibold text-white">Visión</h1>
-                    <p className = "font-montserrat text-justify text-lg font-normal text-white">{nosotros.Vision}</p>
+                    <div className = "w-[100%] max-w-[1400px] flex flex-col items-center justify-center gap-[3vh] p-[3vh] bg-slate-950/60 rounded">
+                    <h1 className = "text-center w-full font-montserrat text-2xl lg:text-4xl font-semibold text-white">Visión</h1>
+                    <p className = "font-montserrat text-justify text-lg font-normal text-white lg:text-xl">{nosotros.Vision}</p>
                     </div>
                 </section>
             </section>
