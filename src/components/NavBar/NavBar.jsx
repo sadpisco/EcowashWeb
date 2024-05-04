@@ -15,9 +15,9 @@ export default function NavBar() {
         className= {`${styles.navBar} bg-slate-900 flex flex-row items-center justify-around h-20 w-full `}
         >
             <section className="flex flex-row items-center justify-center h-14">
-                <img src={logoExample} alt="Logo Ecowash" className = "h-24" />
+                <img src={logoExample} alt="Logo Ecowash" className = "max-h-[70px] lg:max-h-[100px]" />
             </section>
-            <section className="flex flex-row">
+            <section className="flex flex-row mr-1 lg:mr-0">
                 <Link to="/" className="text-white p-2 bg-transparent">
                     <button className = "flex flex-row items-center justify-center bg-transparent">
                         <CottageIcon className = {styles.icon}/>
