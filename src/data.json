@@ -60,11 +60,36 @@
     {
         "nombre":"Lavado de Salón",
         "descripcion": "Lavado profundo de interiores y exteriores, aspirado de techo, suelo, interiores y maletera, siliconeado de tablero, puertas, maletera y llantas, interiores perfumados, encerado y lavado de motor.",
-        "img": "https://res.cloudinary.com/ductjwavg/image/upload/v1713688894/3_-_copia_yeuwi4.jpg",
+        "img": "https://res.cloudinary.com/ductjwavg/image/upload/v1714884959/3_sh9amp.jpg",
         "auto": 200,
         "suv": 250,
         "forbyfor": 280,
         "van": 350
     }
-    ]
+    ],
+
+    "landingCompServicios": [
+    {
+        "nombre": "Lavado de vehiculos",
+        "img": "https://res.cloudinary.com/ductjwavg/image/upload/v1713688452/LandingImage3_-_copia_uzprjh.jpg"
+    },
+    {
+        "nombre": "Lavado de motocicletas",
+        "img": "https://res.cloudinary.com/ductjwavg/image/upload/v1714884645/lavadomoto_cmfcvw.jpg"
+    },
+    {
+        "nombre": "Pulido de vehiculos",
+        "img": "https://res.cloudinary.com/ductjwavg/image/upload/v1714884761/pexels-esmihel-14615257_war4j4.jpg"
+    },
+    {
+        "nombre": "Tratamiento de pintura",
+        "img": "https://res.cloudinary.com/ductjwavg/image/upload/v1714884989/pexels-sarmad-mughal-94606-305070_s1sour.jpg"
+    },
+    {
+        "nombre": "Lavado de Salon",
+        "img": "https://res.cloudinary.com/ductjwavg/image/upload/v1714884959/3_sh9amp.jpg"
+    }    
+]
+    
+
 }

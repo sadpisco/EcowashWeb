@@ -2,7 +2,7 @@ import React from 'react';
 import NavBar from '../../components/NavBar/NavBar';
 import Footer from '../../components/Footer/Footer';
 import { Link } from 'react-router-dom';
-import { landing, lavados } from '../../data.json';
+import { landing, lavados, landingCompServicios } from '../../data.json';
 import styles from './Landing.module.css';
 import logoOne from '../../assets/3m.png';
 import logoTwo from '../../assets/sonax.png';
@@ -61,11 +61,11 @@ export default function Landing(){
                 </section>
                 <section className={`w-full flex h-auto min-h-[600px] flex-col items-center justify-center p-8 bg-gradient-to-r from-neutral-900 to-gray-500`}>
                     <h1 className = "font-montserrat text-3xl text-center pb-8 font-medium text-white w-full lg:text-4xl pt-4">Algunos de nuestros servicios</h1>
-                    <article className ="ml-[4vh] flex flex-row items-center justify-center w-screen h-[auto] min-h-[400px] overflow-auto">
-                        {lavados.map((element) => 
-                        <div className = "ml-4 w-[auto] flex flex-col items-center justify-between p-6 h-[auto]  bg-slate-900 rounded-lg" key = {element.nombre}>
+                    <article className ="ml-[4vh] flex flex-row items-center justify-start max-w-[90vw] h-[auto] min-h-[400px] overflow-auto">
+                        {landingCompServicios.map((element) => 
+                        <div className = "ml-4 w-[250px] flex flex-col items-center justify-between p-6 h-[420px]  bg-slate-300 rounded-lg gap-[2vh]" key = {element.nombre}>
                             <img src = {element.img} className = "min-w-[200px] w-auto h-[380px] max-h-[300px] rounded-md shadow-2xl"/>
-                            <h1 className = "font-montserrat text-2xl font-semibold text-white text-center">{element.nombre}</h1>
+                            <h1 className = "font-montserrat text-xl font-semibold text-black text-center w-[80%]">{element.nombre}</h1>
                             {/* <p className = "font-montserrat text-start">{element.descripcion}</p> */}
                             {/* <p className = "font-montserrat text-start text-lg font-semibold">Autos: S/. {element.auto}.00</p>
                             <p className = "font-montserrat text-start text-lg font-semibold">SUV: S/. {element.auto}.00</p>
