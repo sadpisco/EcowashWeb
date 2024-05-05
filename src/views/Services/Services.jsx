@@ -43,7 +43,7 @@ export default function Services(){
             </header>
             <section className = "bg-slate-800  h-auto w-full flex flex-col items-start justify-center">
                 <section className = {`${styles.divOne} w-full flex flex-col items-center justify-center h-[350px]`}>
-                <h1 className = "font-montserrat font-semibold text-whit text-center">Nuestros Servicios</h1>
+                <h1 className = "font-montserrat font-semibold text-whit text-center text-white">Nuestros Servicios</h1>
                 </section>
                 <section className = "p-[5vh] flex flex-col justify-center h-full w-full items-center bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))] ">
                     {service && <CardServicio service = {service}/>}
