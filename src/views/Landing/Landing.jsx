@@ -59,13 +59,13 @@ export default function Landing(){
                         </div>
                     </article>
                 </section>
-                <section className={`w-full flex h-auto min-h-[600px] flex-col items-center justify-center p-8 bg-gradient-to-r from-neutral-900 to-gray-500`}>
+                <section className={`w-full flex h-auto min-h-[600px] flex-col items-center justify-center p-8 bg-gradient-to-r from-neutral-800 to-slate-900`}>
                     <h1 className = "font-montserrat text-3xl text-center pb-8 font-medium text-white w-full lg:text-4xl pt-4">Algunos de nuestros servicios</h1>
-                    <article className ="ml-[4vh] flex flex-row items-center justify-start max-w-[90vw] h-[auto] min-h-[400px] overflow-auto">
+                    <article className ="ml-[4vh] flex flex-row items-center justify-start max-w-[90vw] h-[auto] min-h-[400px] shadow-transparent">
                         {landingCompServicios.map((element) => 
-                        <div className = "ml-4 w-[250px] flex flex-col items-center justify-between p-6 h-[420px]  bg-slate-300 rounded-lg gap-[2vh]" key = {element.nombre}>
+                        <div className = "ml-4 w-[250px] flex text-black flex-col items-center justify-between p-6 h-[auto]  bg-neutral-200 rounded-lg gap-[2vh] hover:bg-blue-600 hover:translate-y-1 hover:transition-all hover:shadow-black hover:shadow-2xl hover:text-white" key = {element.nombre}>
                             <img src = {element.img} className = "min-w-[200px] w-auto h-[380px] max-h-[300px] rounded-md shadow-2xl"/>
-                            <h1 className = "font-montserrat text-xl font-semibold text-black text-center w-[80%]">{element.nombre}</h1>
+                            <h1 className = "font-montserrat text-xl font-semibold  text-center w-[80%]">{element.nombre}</h1>
                             {/* <p className = "font-montserrat text-start">{element.descripcion}</p> */}
                             {/* <p className = "font-montserrat text-start text-lg font-semibold">Autos: S/. {element.auto}.00</p>
                             <p className = "font-montserrat text-start text-lg font-semibold">SUV: S/. {element.auto}.00</p>
