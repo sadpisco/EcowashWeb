@@ -33,7 +33,7 @@
     "lavados": [{
         "nombre":"Lavado Exterior",
         "descripcion": "Lavado simple de carrocería externa del vehiculo y lavado de llantas. Este servicio al ser el más módico de nuestra cartilla es muy rápido y se ejecuta en tan solo 3 - 5 minutos.",
-        "img": "https://res.cloudinary.com/ductjwavg/image/upload/v1713688949/pexels-sleepi-alleyne-1740919_-_copia_q0igp6.jpg",
+        "img": "https://res.cloudinary.com/ductjwavg/image/upload/c_fill,w_444/v1713688949/pexels-sleepi-alleyne-1740919_-_copia_q0igp6.jpg",
         "auto": 8,
         "suv": 10,
         "forbyfor": 12,
@@ -71,11 +71,11 @@
     "landingCompServicios": [
     {
         "nombre": "Lavado de vehiculos",
-        "img": "https://res.cloudinary.com/ductjwavg/image/upload/v1713688452/LandingImage3_-_copia_uzprjh.jpg"
+        "img": "https://res.cloudinary.com/ductjwavg/image/upload/c_fill,w_444/v1713688452/LandingImage3_-_copia_uzprjh.jpg"
     },
     {
         "nombre": "Lavado de motocicletas",
-        "img": "https://res.cloudinary.com/ductjwavg/image/upload/v1714884645/lavadomoto_cmfcvw.jpg"
+        "img": "https://res.cloudinary.com/ductjwavg/image/upload/c_fill,w_444/v1714884645/lavadomoto_cmfcvw.jpg"
     },
     {
         "nombre": "Pulido de vehiculos",
@@ -83,11 +83,11 @@
     },
     {
         "nombre": "Tratamiento de pintura",
-        "img": "https://res.cloudinary.com/ductjwavg/image/upload/v1714884989/pexels-sarmad-mughal-94606-305070_s1sour.jpg"
+        "img": "https://res.cloudinary.com/ductjwavg/image/upload/c_fill,w_440/v1714884989/pexels-sarmad-mughal-94606-305070_s1sour.jpg"
     },
     {
         "nombre": "Lavado de Salon",
-        "img": "https://res.cloudinary.com/ductjwavg/image/upload/v1714884959/3_sh9amp.jpg"
+        "img": "https://res.cloudinary.com/ductjwavg/image/upload/c_fill,w_444/v1714884959/3_sh9amp.jpg"
     }    
 ]
     

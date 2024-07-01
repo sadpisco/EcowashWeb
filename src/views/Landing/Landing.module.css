@@ -1,5 +1,5 @@
 .divOne{
-    background-image: url("../../assets/LandingImage1.jpg");
+    background-image: url("../../assets/resized/LandingImage.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: local; 
@@ -7,7 +7,7 @@
     min-height: 60vh;
 }
 .divTwo{
-    background-image: url("../../assets/LandingImage4.jpg");
+    background-image: url("../../assets/resized//LandingImage4.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: local; 

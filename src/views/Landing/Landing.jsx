@@ -10,7 +10,7 @@ import logoThree from '../../assets/karcher.png';
 import logoFour from '../../assets/wurth.png';
 import logoFive from '../../assets/brafinsa.png';
 import EditCalendarIcon from '@mui/icons-material/EditCalendar';
-import imageDivTwo from '../../assets/LandingImage3.jpg';
+import imageDivTwo from '../../assets/resized/LandingImage3.jpg';
 import imageDivThree from '../../assets/LandingImage5.jpg';
 import MapLanding from '../../components/Map/MapLanding';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
