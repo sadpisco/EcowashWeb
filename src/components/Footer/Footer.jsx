@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Footer.module.css';
-import logo from '../../assets/logoexample.png';
+import logo from '../../assets/ECOWASH.png';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';

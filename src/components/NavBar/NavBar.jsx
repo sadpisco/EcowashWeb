@@ -6,7 +6,7 @@ import BusinessIcon from '@mui/icons-material/Business';
 import CallIcon from '@mui/icons-material/Call';
 import EditCalendarIcon from '@mui/icons-material/EditCalendar';
 import styles from './NavBar.module.css'
-import logoExample from '../../assets/logoexample.png';
+import logoExample from '../../assets/ECOWASH.png';
 
 
 export default function NavBar() {
