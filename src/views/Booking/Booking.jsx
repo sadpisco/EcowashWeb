@@ -26,7 +26,7 @@ export default function Booking(){
             <section className = "bg-slate-800  h-auto w-full flex flex-col items-start justify-center">
             <div className = {styles.calendly}>
             <InlineWidget 
-            url="https://calendly.com/leo99153" 
+            url="https://calendly.com/ensege_fachasa" 
             styles = {{height: '82vh', width: '100%', backgroundColor: 'black'}}
             pageSettings={{
                 backgroundColor: '282828',
