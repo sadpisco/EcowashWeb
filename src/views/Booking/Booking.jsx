@@ -29,7 +29,7 @@ export default function Booking(){
             url="https://calendly.com/ensege_fachasa" 
             styles = {{height: '82vh', width: '100%', backgroundColor: 'black'}}
             pageSettings={{
-                backgroundColor: '282828',
+                backgroundColor: 'white',
                 hideEventTypeDetails: false,
                 hideLandingPageDetails: false,
                 primaryColor: '282828',
